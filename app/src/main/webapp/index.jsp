@@ -9,5 +9,9 @@
     </head>
     <body>
         <h1>Olá Mundo!!!</h1>
+        <% 
+            String nome = request.getParameter("nome");
+            out.print("Olá " + nome);
+        %>
     </body>
 </html>
